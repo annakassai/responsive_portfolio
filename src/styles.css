@@ -33,8 +33,8 @@ h1 {
 }
 
 img {
-    width:300; 
-    height:300;
+    width:400px; 
+    height:500px;
     display: block; 
     margin: 0 auto;
 }
@@ -69,6 +69,10 @@ img {
     box-shadow: var(--box-shadow);
 }
 
+.btn-branding:hover {
+    color: var(--secondary-color);
+}
+
 .btn-outline {
     border-radius: 18px;
     padding: 15px 30px;
@@ -78,8 +82,15 @@ img {
     border:1px solid var(--branding-color);
 }
 
+.btn-outline:hover {
+    background-color: var(--branding-color);
+    color: var(--secondary-color);
+    transition: all 200ms ease-in-out;
+}
+
 .project-description {
-    padding: 120px 60px;
+    text-align: justify;
+    padding: 80px 60px;
 }
 
 @media (max-width:900px) {
