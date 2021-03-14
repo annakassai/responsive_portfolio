@@ -5,7 +5,7 @@
     --heading-color:#000000;
     --heading-font-family:'Playfair Display', serif;
     --default-font-family:'Poppins', sans-serif;
-    --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+    --box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 
 body{
@@ -33,16 +33,19 @@ h1 {
 }
 
 img {
-    width:400px; 
-    height:500px;
+    width:350px; 
+    height:400px;
     display: block; 
     margin: 0 auto;
-    border-radius: 18px;
+    padding: 30px 36px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    background-color: var(--secondary-color);
 }
 
 .hero {
     background-color: var(--secondary-color);
-    padding: 160px 20px; 
+    padding: 140px 20px; 
     text-align: center;
 }
 
@@ -71,7 +74,10 @@ img {
 }
 
 .btn-branding:hover {
-    color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--branding-color);
+    border:1px solid var(--branding-color);
+    transition: all 200ms ease-in-out;
 }
 
 .btn-outline {
@@ -91,7 +97,7 @@ img {
 
 .project-description {
     text-align: justify;
-    padding: 80px 60px;
+    padding: 80px 40px;
 }
 
 @media (max-width:900px) {
@@ -105,8 +111,9 @@ img {
     }
 
     .hero {
-        padding: 80px 20px;
+        padding: 60px 20px;
     }
+
     .project-description {
         padding:0;
         text-align: center;
