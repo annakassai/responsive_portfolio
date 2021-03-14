@@ -39,6 +39,7 @@ img {
     margin: 0 auto;
     padding: 30px 36px;
     border-radius: 10px;
+    border:1px solid var(--secondary-color);
     box-shadow: var(--box-shadow);
     background-color: var(--secondary-color);
 }
