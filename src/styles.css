@@ -64,20 +64,20 @@ h1 {
     font-size: 24px;
 }
 
-.about-section {
+.content-container {
     padding: 140px 20px; 
 }
 
-.about-section h1{
+.content-container h1{
     font-size: 62px;
     line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
     font-size: 18px;
 }
 
-.about-section p {
+.content-container p {
     text-align: justify;
 }
 
@@ -142,7 +142,7 @@ h1 {
         padding: 60px 20px;
     }
 
-    .about-section {
+    .content-container {
         text-align: center;
         padding:0;
     }
