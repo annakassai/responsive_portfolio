@@ -102,6 +102,10 @@ nav a:hover, nav li.active a {
     font-size: 24px;
 }
 
+.navbar {
+    padding: 10px;
+}
+
 .content-container {
     padding: 140px 20px; 
 }
