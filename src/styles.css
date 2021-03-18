@@ -32,6 +32,32 @@ h1 {
     font-size: 96px;
 }
 
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color:#272142;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover, nav li.active a {
+    color:var(--branding-color);
+}
+
 .tennis, .vanilla, .react {
     width:350px; 
     height:400px;
@@ -80,6 +106,14 @@ h1 {
     padding: 140px 20px; 
 }
 
+.content-container p {
+    text-align: justify;
+}
+
+.content {
+    margin: 30px;
+}
+
 .content h1{
     font-size: 62px;
     line-height: 80px;
@@ -98,10 +132,6 @@ h1 {
 
 .content p {
     font-size: 14px;
-}
-
-.content-container p {
-    text-align: justify;
 }
 
 .btn-branding {
@@ -151,6 +181,10 @@ h1 {
     background-color: var(--secondary-color);
 }
 
+.logo {
+    max-height: 40px;
+}
+
 @media (max-width:900px) {
     h1 {
         font-size: 44px;
@@ -159,6 +193,10 @@ h1 {
 
     h2 {
         font-size: 44px;
+    }
+
+    nav a {
+        font-size: 14px;
     }
 
     .hero {
@@ -174,4 +212,5 @@ h1 {
         padding:0;
         text-align: center;
     }
+
 }
