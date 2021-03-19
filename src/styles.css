@@ -32,32 +32,6 @@ h1 {
     font-size: 96px;
 }
 
-nav {
-    padding: 20px 0;
-}
-
-nav ul {
-    margin:0;
-    padding:0;
-}
-
-nav li {
-    display: inline;
-    list-style: none;
-    line-height: 42px;
-    margin-left: 15px;
-}
-
-nav a {
-    text-decoration: none;
-    color:#272142;
-    transition: all 100ms ease-in-out;
-}
-
-nav a:hover, nav li.active a {
-    color:var(--branding-color);
-}
-
 .tennis, .vanilla, .react {
     width:350px; 
     height:400px;
@@ -102,12 +76,8 @@ nav a:hover, nav li.active a {
     font-size: 24px;
 }
 
-.navbar {
-    padding: 10px;
-}
-
 .content-container {
-    padding: 140px 20px; 
+    padding: 60px 20px; 
 }
 
 .content-container p {
@@ -186,7 +156,20 @@ nav a:hover, nav li.active a {
 }
 
 .logo {
+    padding-left:50px;
     max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--branding-color);
+} 
+
+.navbar-light .navbar-nav .nav-link {
+    color:var(--paragraph-color);
+}
+
+.nav-item {
+    padding: 0 10px;
 }
 
 @media (max-width:900px) {
@@ -197,6 +180,10 @@ nav a:hover, nav li.active a {
 
     h2 {
         font-size: 44px;
+    }
+
+    h3 {
+        text-align: left;
     }
 
     nav a {
