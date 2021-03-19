@@ -156,16 +156,21 @@ h1 {
 }
 
 .logo {
-    padding-left:50px;
+    padding-left:40px;
     max-height: 40px;
+}
+
+.navbar {
+    padding:6px;
+    margin: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:var(--paragraph-color);
 }
 
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--branding-color);
-} 
-
-.navbar-light .navbar-nav .nav-link {
-    color:var(--paragraph-color);
 }
 
 .nav-item {
@@ -199,5 +204,4 @@ h1 {
         padding:0;
         text-align: center;
     }
-
 }
