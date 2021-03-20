@@ -33,8 +33,9 @@ h1 {
 }
 
 h3 {
-    font-size: 44px;
+    font-size: 40px;
 }
+
 .tennis, .vanilla, .react {
     width:350px; 
     height:400px;
@@ -69,7 +70,7 @@ h3 {
     font-size: 36px;
     font-weight: bold;
     margin: 0;
-    color: var(--paragraph-color);
+    color: var(--heading-color);
 }
 
 .hero h2 {
@@ -158,14 +159,9 @@ h3 {
     background-color: var(--secondary-color);
 }
 
-.logo {
-    padding-left:40px;
-    max-height: 40px;
-}
-
 .navbar {
     padding:6px;
-    margin: 1px;
+    box-shadow:rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -180,13 +176,19 @@ h3 {
     padding: 0 10px;
 }
 
+.navbar-brand {
+    margin-left: 40px;
+}
+
+
 footer {
     margin: 60px 0;
 }
 
 footer .contact-box {
+    margin: 80px;
     background: var(--secondary-color);
-    padding: 30px 120px;
+    padding: 30px 100px;
     border-radius: 10px;
 }
 
@@ -195,19 +197,17 @@ footer .contact-box p{
 }
 
 footer .email-link {
-    margin: 20px 0;
     text-decoration: none;
     color: var(--paragraph-color);
     font-size: 20px;
 }
 
 footer .email-link:hover {
-    text-decoration: none;
     color:var(--branding-color)
 }
 
 footer .social-links a { 
-    margin: 6px 20px;
+    margin: 0 20px;
     padding: 8px 14px;
     font-size: 18px;
     border-radius: 50%;
@@ -219,6 +219,10 @@ footer .social-links a {
 footer .social-links a:hover {
     color: var(--secondary-color);
     background-color: var(--branding-color);
+}
+
+footer .contact-button {
+    margin: 6px 0;
 }
 
 @media (max-width:900px) {
@@ -240,7 +244,6 @@ footer .social-links a:hover {
     }
 
     .content-container {
-        text-align: center;
         padding:0;
     }
 
@@ -249,7 +252,4 @@ footer .social-links a:hover {
         text-align: center;
     }
 
-    footer .contact-box {
-        padding: ;
-    }
 }
