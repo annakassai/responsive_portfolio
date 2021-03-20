@@ -93,7 +93,7 @@ h3 {
 }
 
 .content h1{
-    font-size: 62px;
+    font-size: 52px;
     line-height: 80px;
 }
 
@@ -152,7 +152,7 @@ h3 {
 .profilepicture {
     display: block; 
     margin: 0 auto;
-    max-width: 75%;
+    max-width: 60%;
     padding: 20px;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
@@ -180,6 +180,11 @@ h3 {
     margin-left: 40px;
 }
 
+.email, .linkedin, .instagram {
+    text-decoration: none;
+    color: var(--paragraph-color);
+}
+
 
 footer {
     margin: 60px 0;
@@ -202,7 +207,7 @@ footer .email-link {
     font-size: 20px;
 }
 
-footer .email-link:hover {
+footer .email-link:hover, .email:hover, .linkedin:hover, .instagram:hover {
     color:var(--branding-color)
 }
 
