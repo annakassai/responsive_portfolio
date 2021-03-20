@@ -29,9 +29,12 @@ p {
 }
 
 h1 {
-    font-size: 96px;
+    font-size: 86px;
 }
 
+h3 {
+    font-size: 44px;
+}
 .tennis, .vanilla, .react {
     width:350px; 
     height:400px;
@@ -177,6 +180,47 @@ h1 {
     padding: 0 10px;
 }
 
+footer {
+    margin: 60px 0;
+}
+
+footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p{
+    margin: 0;
+}
+
+footer .email-link {
+    margin: 20px 0;
+    text-decoration: none;
+    color: var(--paragraph-color);
+    font-size: 20px;
+}
+
+footer .email-link:hover {
+    text-decoration: none;
+    color:var(--branding-color)
+}
+
+footer .social-links a { 
+    margin: 6px 20px;
+    padding: 8px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    color:var(--branding-color);
+    background-color: var(--secondary-color);
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: var(--secondary-color);
+    background-color: var(--branding-color);
+}
+
 @media (max-width:900px) {
     h1 {
         font-size: 40px;
@@ -188,7 +232,7 @@ h1 {
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .hero {
@@ -203,5 +247,9 @@ h1 {
     .project-description {
         padding:0;
         text-align: center;
+    }
+
+    footer .contact-box {
+        padding: ;
     }
 }
