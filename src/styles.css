@@ -62,7 +62,7 @@ h3 {
 
 .hero {
     background-color: var(--secondary-color);
-    padding: 140px 20px; 
+    padding: 100px 20px; 
     text-align: center;
 }
 
@@ -182,11 +182,11 @@ h3 {
 
 .email, .linkedin, .instagram {
     text-decoration: none;
-    color: var(--paragraph-color);
+    color: var(--branding-color);
 }
 
 .email:hover, .linkedin:hover, .instagram:hover {
-    color:var(--branding-color)
+    color:var(--paragraph-color);
 }
 
 footer {
@@ -210,7 +210,7 @@ footer .email-link {
     font-size: 20px;
 }
 
-footer .email-link:hover {
+footer .email-link:hover, .github-link:hover {
     color:var(--branding-color)
 }
 
@@ -231,6 +231,10 @@ footer .social-links a:hover {
 
 footer .contact-button {
     margin: 6px 0;
+}
+
+footer .github-link {
+    color: var(--paragraph-color);
 }
 
 @media (max-width:900px) {
@@ -257,6 +261,7 @@ footer .contact-button {
 
     .hero p {
         font-size: 28px;
+        line-height: 1;
     }
 
     .content-container {
