@@ -80,6 +80,15 @@ h3 {
     font-size: 24px;
 }
 
+.project-links{
+    text-decoration: none;
+    color:var(--paragraph-color);
+}
+
+.project-links:hover {
+    color: var(--branding-color);
+}
+
 .content-container {
     padding: 60px 20px; 
 }
