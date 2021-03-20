@@ -177,7 +177,7 @@ h3 {
 }
 
 .navbar-brand {
-    margin-left: 40px;
+    margin-left: 32px;
 }
 
 .email, .linkedin, .instagram {
@@ -232,14 +232,10 @@ footer .contact-button {
 
 @media (max-width:900px) {
     h1 {
-        font-size: 40px;
+        font-size: 36px;
         line-height: 56px;
     }
-
-    h2 {
-        font-size: 34px;
-    }
-
+  
     h3 {
         font-size: 18px;
     }
@@ -248,11 +244,23 @@ footer .contact-button {
         padding: 60px 20px;
     }
 
+    .hero h1 {
+        font-size: 50px;
+    }  
+    
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 28px;
+    }
+
     .content-container {
         padding:0;
     }
 
-    .project-description {
+    .project-description, #intro {
         padding:0;
         text-align: center;
     }
