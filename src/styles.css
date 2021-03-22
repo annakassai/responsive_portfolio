@@ -148,6 +148,17 @@ h3 {
     transition: all 200ms ease-in-out;
 }
 
+
+.shecodes-link {
+    font-weight: bold;
+    text-decoration: none;
+    color:var(--paragraph-color);
+}
+
+.shecodes-link:hover {
+    color: var(--branding-color);
+}
+
 .project-description {
     text-align: justify;
     padding: 80px 40px;
