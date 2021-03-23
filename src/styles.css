@@ -48,7 +48,7 @@ h3 {
     background-color: var(--secondary-color);
 }
 
-.projectone, .projecttwo, .projectthree {
+.projectone, .projecttwo, .projectthree, .projectfour {
     display: block; 
     margin: 0 auto;
     width:320px; 
