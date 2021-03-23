@@ -282,7 +282,9 @@ footer .github-link {
     .content-container {
         padding:0;
     }
-
+    .navbar-brand {
+        margin-left: 0;
+    }
     .project-description, #intro {
         padding:0;
         text-align: center;
