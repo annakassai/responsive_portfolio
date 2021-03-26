@@ -225,6 +225,11 @@ footer .email-link {
     font-size: 20px;
 }
 
+footer .github-link {
+    text-decoration: none;
+    font-weight: 600;
+}
+
 footer .email-link:hover, .github-link:hover {
     color:var(--branding-color)
 }
@@ -272,6 +277,7 @@ footer .github-link {
     
     .hero h2 {
         font-size: 24px;
+        line-height: 1.5;
     }
 
     .hero p {
